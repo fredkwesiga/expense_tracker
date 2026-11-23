@@ -1,0 +1,6 @@
+pyproject.toml
+src/inventory_manager.egg-info/PKG-INFO
+src/inventory_manager.egg-info/SOURCES.txt
+src/inventory_manager.egg-info/dependency_links.txt
+src/inventory_manager.egg-info/entry_points.txt
+src/inventory_manager.egg-info/top_level.txt
