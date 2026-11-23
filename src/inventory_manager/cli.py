@@ -125,8 +125,8 @@ def main() -> None:
         _, action = MENU[choice]
         try:
             action(inventory)  # call the chosen handle_... function
-            save_inventory(inventory, DATA_FILE)  # save after every action
+            save_inventory(inventory, DATA_FILE)
         except InventoryError as exc:  # business-rule errors, e.g. OutOfStockError
             print(f"Error: {exc}")
-        except ValueError as exc:  # validation errors, e.g. negative quantity
+        except ValueError as exc:
             print(f"Invalid input: {exc}")
